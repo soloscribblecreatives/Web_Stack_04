@@ -10,69 +10,50 @@
 	z-index: 1;
 }
 
-.s3_vid1 {
-	position: absolute;
-	width: 1080px;
-	height: 810px;
-	z-index: 80;
-}
-
 .s3_2 {
 	position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 504px;
-  height: 194px;
-	animation: zoomIn 1s;
+  left: 50px;
+  top: 212px;
+  width: 293px;
+  height: 495px;
+	animation: riseUp 1s;
 	animation-delay: 0s;
-	animation-fill-mode: both;
-	z-index: 4;
-}
-
-.s3_2_wrap {
-	position: absolute;
-  left: 260px;
-  top: 363px;
-  width: 504px;
-  height: 194px;
-	animation: zoomOut 0.5s;
-	animation-delay: 3s;
 	animation-fill-mode: both;
 	z-index: 4;
 }
 
 .s3_3 {
 	position: absolute;
-  left: 11px;
-  top: 283px;
-  width: 304px;
-  height: 218px;
-	animation: fadeInLeft 1s;
-	animation-delay: 1.5s;
+  left: 361px;
+  top: 213px;
+  width: 299px;
+  height: 489px;
+	animation: riseUp 1s;
+	animation-delay: 0.5s;
 	animation-fill-mode: both;
 	z-index: 3;
 }
 
 .s3_4 {
 	position: absolute;
-  left: 178px;
-  top: 501px;
-  width: 316px;
-  height: 233px;
-	animation: fadeInLeft 1s;
-	animation-delay: 2s;
+  left: 682px;
+  top: 213px;
+  width: 294px;
+  height: 493px;
+	animation: riseUp 1s;
+	animation-delay: 1s;
 	animation-fill-mode: both;
 	z-index: 2;
 }
 
 .s3_5 {
 	position: absolute;
-  left: 546px;
-  top: 502px;
-  width: 311px;
-  height: 232px;
+  left: 359px;
+  top: 396px;
+  width: 549px;
+  height: 258px;
 	animation: fadeInRight 1s;
-	animation-delay: 2.5s;
+	animation-delay: 3.5s;
 	animation-fill-mode: both;
 	z-index: 2;
 }
@@ -171,4 +152,42 @@
 .fadeInDownSmallSmall {
   -webkit-animation-name: fadeInDownSmall;
   animation-name: fadeInDownSmall;
+}
+
+
+
+
+
+
+
+@keyframes spinInY {
+  0% {
+    transform: perspective(400px) rotate3d(0, 1, 0, 180deg);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  100% {
+    transform: perspective(400px) rotate3d(0, 1, 0, 360deg);
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+}
+
+
+@keyframes riseUp {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) translate3d(0, 100%, 0);
+  }
+  
+  30% {
+    opacity: 1;
+    transform: scale(0.5) translate3d(0, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1) translate3d(0, 0, 0);
+  }
 }

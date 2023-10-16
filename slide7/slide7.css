@@ -5,18 +5,18 @@
 
 .s7_1 {
 	position: absolute;
-	width: 1080px;
-	height: 810px;
+	width: 1024px;
+	height: 768px;
 	z-index: 1;
 }
 
 .s7_2 {
 	position: absolute;
-  left: 78px;
-  top: 303px;
-  width: 337px;
-  height: 280px;
-	animation: fadeInRightBig 0.8s;
+  left: 17px;
+  top: 251px;
+  width: 251px;
+  height: 467px;
+	animation: fadeInRightBig 1s;
 	animation-delay: 0s;
 	animation-fill-mode: both;
 	z-index: 5;
@@ -24,11 +24,11 @@
 
 .s7_3 {
 	position: absolute;
-  left: 496px;
-  top: 310px;
-  width: 507px;
-  height: 319px;
-	animation: zoomIn 0.5s;
+  left: 330px;
+  top: 264px;
+  width: 609px;
+  height: 35px;
+	animation: fadeInUpBig 0.5s;
 	animation-delay: 1s;
 	animation-fill-mode: both;
 	z-index: 5;
@@ -36,12 +36,11 @@
 
 .s7_4 {
 	position: absolute;
-  left: 592px;
-  top: 419px;
-  width: 372px;
-  height: 135px;
-  clip: rect(140px,380px,140px,0px);
-	animation: revealVerticalRev 1s;
+  left: 331px;
+  top: 309px;
+  width: 148px;
+  height: 195px;
+	animation: backInRight 1s;
 	animation-delay: 1.5s;
 	animation-fill-mode: both;
 	z-index: 5;
@@ -120,16 +119,6 @@
 	z-index: 20;
 }
 
-
-@keyframes revealVerticalRev {
-  0% {
-    clip: rect(140px,380px,140px,0px);
-  }
-  
-  100% {
-    clip: rect(0px,380px,140px,0px);
-  }
-}
 
 @-webkit-keyframes fadeInDownSmall {
   0% {

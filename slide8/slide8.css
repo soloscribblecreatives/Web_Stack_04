@@ -12,11 +12,11 @@
 
 .s8_2 {
 	position: absolute;
-  left: 148px;
-  top: 248px;
-  width: 784px;
-  height: 422px;
-	animation: zoomIn 0.5s;
+  left: 559px;
+  top: 192px;
+  width: 243px;
+  height: 42px;
+	animation: slideInRight 0.5s;
 	animation-delay: 0s;
 	animation-fill-mode: both;
 	z-index: 4;
@@ -24,13 +24,12 @@
 
 .s8_3 {
 	position: absolute;
-  left: 228px;
-  top: 398px;
-  width: 517px;
-  height: 211px;
-  clip: rect(0px,0px,220px,0px);
-	animation: revealHorizontal 1s;
-	animation-delay: 0.5s;
+  left: 0px;
+  top: 0px;
+  width: 378px;
+  height: 126px;
+	animation: slideInUp 0.5s;
+	animation-delay: 2s;
 	animation-fill-mode: both;
 	z-index: 3;
 }
@@ -74,19 +73,6 @@
   width: 580px;
   height: 326px;
   z-index: 80;
-}
-
-
-@keyframes revealHorizontal {
-  0% {
-    clip: rect(0px,0px,220px,0px);
-	opacity: 1;
-  }
-  
-  100% {
-    clip: rect(0px,520px,220px,0px);
-	opacity: 1;
-  }
 }
 
 

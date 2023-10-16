@@ -5,17 +5,17 @@
 
 .s10_1 {
   position: absolute;
-  width: 1080px;
-  height: 800px;
+  width: 1024px;
+  height: 768px;
   z-index: 1;
 }
 
 .s10_2 {
   position: absolute;
-  left: 95px;
-  top: 246px;
-  width: 243px;
-  height: 434px;
+  left: 37px;
+  top: 276px;
+  width: 244px;
+  height: 373px;
 	animation: fadeInRightBig 1s;
 	animation-delay: 0s;
 	animation-fill-mode: both;
@@ -24,9 +24,9 @@
 
 .s10_3 {
   position: absolute;
-  left: 383px;
-  top: 247px;
-  width: 634px;
+  left: 302px;
+  top: 257px;
+  width: 667px;
   height: 37px;
 	animation: fadeInUpBig 0.5s;
 	animation-delay: 1s;
@@ -36,10 +36,10 @@
 
 .s10_4 {
   position: absolute;
-  left: 399px;
-  top: 304px;
-  width: 183px;
-  height: 189px;
+  left: 303px;
+  top: 306px;
+  width: 127px;
+  height: 162px;
 	animation: backInRight 1s;
 	animation-delay: 1.5s;
 	animation-fill-mode: both;
@@ -48,10 +48,10 @@
 
 .s10_5 {
   position: absolute;
-  left: 616px;
-  top: 308px;
-  width: 183px;
-  height: 186px;
+  left: 433px;
+  top: 306px;
+  width: 137px;
+  height: 162px;
 	animation: backInRight 1s;
 	animation-delay: 2s;
 	animation-fill-mode: both;
@@ -60,10 +60,10 @@
 
 .s10_6 {
   position: absolute;
-  left: 817px;
-  top: 301px;
-  width: 183px;
-  height: 193px;
+  left: 574px;
+  top: 306px;
+  width: 120px;
+  height: 162px;
 	animation: backInRight 1s;
 	animation-delay: 2.5s;
 	animation-fill-mode: both;
@@ -72,14 +72,14 @@
 
 .s10_7 {
   position: absolute;
-  left: 384px;
-  top: 511px;
-  width: 629px;
-  height: 155px;
-	animation: zoomInDown 1s;
-	animation-delay: 3.5s;
+  left: 698px;
+  top: 306px;
+  width: 140px;
+  height: 162px;
+	animation: backInRight 1s;
+	animation-delay: 3s;
 	animation-fill-mode: both;
-  z-index: 2;
+  z-index: 5;
 }
 
 .s10_8 {
@@ -116,24 +116,6 @@
   animation-delay: 3.5s;
   animation-fill-mode: both;
   z-index: 7;
-}
-
-.nodefluid {
-  position: absolute;
-  left: 803px;
-  top: 0px;
-  width: 127px;
-  height: 37px;
-  z-index: 105;
-}
-
-.nodeds {
-  position: absolute;
-  left: 937px;
-  top: 0px;
-  width: 127px;
-  height: 37px;
-  z-index: 106;
 }
 
 .hit_1, .hit_2, .hit_3, .hit_4 {
