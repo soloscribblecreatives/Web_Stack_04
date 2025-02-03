@@ -1,0 +1,45 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.home {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1080px;
+	height: 810px;
+	z-index: 90;
+}
+
+.s1 {
+	position: absolute;
+	width: 1080px;
+	height: 810px;
+	z-index: 1;
+}
+
+.s2 {
+	position: absolute;
+  left: 505px;
+  top: 123px;
+  width: 465px;
+  height: 48px;
+	animation: slideInUp 0.5s;
+	animation-delay: 0.2s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s3 {
+	position: absolute;
+  left: 505px;
+  top: 196px;
+  width: 465px;
+  height: 527px;
+	animation: zoomIn 0.5s;
+	animation-delay: 0.7s;
+	animation-fill-mode: both;
+	transform-origin: top;
+	z-index: 10;
+}
