@@ -281,7 +281,7 @@
 <body onload="load();" style="margin:0px;">
 <input type="hidden" name="" id="pagename" value="index5.html">
 <div id="Stage" class="EDGE-144335490" style="position: fixed;">
-    <link rel="stylesheet" type="text/css" href="images/slide5.css" media="screen"/><div class="s1"><img src="images/s1.png" width="1080" height="810" alt=""/></div><div class="s2"><img src="images/s2.png"/></div><div class="s3"><img src="images/s3.png"/></div><div class="s4"><img src="images/s4.png"/></div><div class="s5"><img src="images/s5.png"/></div><div class="s6"><img src="images/s6.png"/></div><div class="s7"><img src="images/s7.png"/></div><div class="s8"><img src="images/s8.png"/></div><div class="s9"><img src="images/s9.png"/></div><div class="s10"><img src="images/s10.png"/></div><div class="s11"><img src="images/s11.png"/></div><div class="s12"><img src="images/s12.png"/></div><div class="home" onclick="home()"></div>
+    <link rel="stylesheet" type="text/css" href="images/slide5.css" media="screen"/><div class="s1"><img src="images/s1.png" width="1080" height="810" alt=""/></div><div class="s2"><img src="images/s2.png"/></div><div class="s3"><img src="images/s3.png"/></div><div class="s4"><img src="images/s4.png"/></div><div class="s5"><img src="images/s5.png"/></div><div class="s6"><img src="images/s6.png"/></div><div class="s7"><img src="images/s7.png"/></div><div class="s8"><img src="images/s8.png"/></div><div class="s9"><img src="images/s9.png"/></div><div class="s10"><img src="images/s10.png"/></div><div class="s11"><img src="images/s11.png"/></div><div class="s12"><img src="images/s12.png"/></div><div class="s13"><img src="images/s13.png"/></div><div class="s14" onclick="popClose()"><img src="images/s14.png"/></div><div class="popUp" onclick="popUp()"></div><div class="home" onclick="home()"></div>
 </div>
 <map id="map_ID" name="map">
     <!-- <area shape="poly" coords="64,773, 99,1156, 234,778, 202,1157" href="javascript:;" id="posology" alt="Posology" title="Posology" /> -->
@@ -583,6 +583,13 @@ var mousex=0;
 	<script>
 		function home() {
 			window.location.href="../cicabiobc4/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}
+		
+		function popUp() {
+			$('.s14').css("display","block");
+		}
+		function popClose() {
+			$('.s14').css("display","none");
 		}
 	</script>
    

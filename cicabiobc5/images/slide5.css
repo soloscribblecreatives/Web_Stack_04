@@ -21,10 +21,10 @@
 
 .s2 {
 	position: absolute;
-  left: 421px;
-  top: 121px;
-  width: 579px;
-  height: 95px;
+  left: 441px;
+  top: 157px;
+  width: 542px;
+  height: 89px;
 	animation: slideInUp 0.5s;
 	animation-delay: 0.2s;
 	animation-fill-mode: both;
@@ -33,10 +33,10 @@
 
 .s3 {
 	position: absolute;
-  left: 448px;
-  top: 237px;
-  width: 140px;
-  height: 83px;
+  left: 466px;
+  top: 266px;
+  width: 131px;
+  height: 78px;
 	animation: zoomIn 0.5s;
 	animation-delay: 0.7s;
 	animation-fill-mode: both;
@@ -45,10 +45,10 @@
 
 .s4 {
 	position: absolute;
-  left: 640px;
-  top: 237px;
-  width: 149px;
-  height: 83px;
+  left: 646px;
+  top: 266px;
+  width: 140px;
+  height: 78px;
 	animation: zoomIn 0.5s;
 	animation-delay: 0.9s;
 	animation-fill-mode: both;
@@ -57,10 +57,10 @@
 
 .s5 {
 	position: absolute;
-  left: 834px;
-  top: 237px;
-  width: 154px;
-  height: 81px;
+  left: 828px;
+  top: 266px;
+  width: 144px;
+  height: 76px;
 	animation: zoomIn 0.5s;
 	animation-delay: 1s;
 	animation-fill-mode: both;
@@ -69,10 +69,10 @@
 
 .s6 {
 	position: absolute;
-  left: 421px;
-  top: 355px;
-  width: 580px;
-  height: 49px;
+  left: 441px;
+  top: 376px;
+  width: 543px;
+  height: 46px;
 	animation: fadeInUp 0.5s;
 	animation-delay: 1.5s;
 	animation-fill-mode: both;
@@ -81,10 +81,10 @@
 
 .s7 {
 	position: absolute;
-  left: 421px;
-  top: 430px;
-  width: 182px;
-  height: 128px;
+  left: 441px;
+  top: 447px;
+  width: 170px;
+  height: 120px;
 	animation: backInRight 0.5s;
 	animation-delay: 1.8s;
 	animation-fill-mode: both;
@@ -93,10 +93,10 @@
 
 .s8 {
   position: absolute;
-  left: 620px;
-  top: 430px;
-  width: 182px;
-  height: 128px;
+  left: 627px;
+  top: 447px;
+  width: 171px;
+  height: 120px;
 	animation: backInRight 0.5s;
 	animation-delay: 1.9s;
 	animation-fill-mode: both;
@@ -105,10 +105,10 @@
 
 .s9 {
   position: absolute;
-  left: 818px;
-  top: 430px;
-  width: 182px;
-  height: 128px;
+  left: 813px;
+  top: 447px;
+  width: 170px;
+  height: 120px;
 	animation: backInRight 0.5s;
 	animation-delay: 2s;
 	animation-fill-mode: both;
@@ -117,10 +117,10 @@
 
 .s10 {
   position: absolute;
-  left: 420px;
-  top: 572px;
-  width: 183px;
-  height: 128px;
+  left: 440px;
+  top: 580px;
+  width: 171px;
+  height: 120px;
 	animation: backInRight 0.5s;
 	animation-delay: 2.1s;
 	animation-fill-mode: both;
@@ -129,10 +129,10 @@
 
 .s11 {
   position: absolute;
-  left: 620px;
-  top: 572px;
-  width: 182px;
-  height: 128px;
+  left: 627px;
+  top: 580px;
+  width: 171px;
+  height: 120px;
 	animation: backInRight 0.5s;
 	animation-delay: 2.2s;
 	animation-fill-mode: both;
@@ -141,14 +141,45 @@
 
 .s12 {
   position: absolute;
-  left: 819px;
-  top: 571px;
-  width: 182px;
-  height: 128px;
+  left: 814px;
+  top: 579px;
+  width: 170px;
+  height: 120px;
 	animation: backInRight 0.5s;
 	animation-delay: 2.3s;
 	animation-fill-mode: both;
 	z-index: 30;
+}
+
+.s13 {
+  position: absolute;
+  left: 991px;
+  top: 562px;
+  width: 42px;
+  height: 34px;
+	animation: flashLong 2s infinite;
+	animation-delay: 2.8s;
+	animation-fill-mode: both;
+	z-index: 30;
+}
+
+.s14 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1080px;
+	height: 810px;
+	display: none;
+	z-index: 120;
+}
+
+.popUp {
+  position: absolute;
+  left: 417px;
+  top: 363px;
+  width: 637px;
+  height: 350px;
+  z-index: 100;
 }
 
 

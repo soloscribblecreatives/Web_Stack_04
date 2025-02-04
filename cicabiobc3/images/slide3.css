@@ -5,19 +5,23 @@
 
 .tog1 {
 	position: absolute;
-	left: 864px;
-	top: 117px;
+	left: 860px;
+	top: 86px;
 	width: 178px;
-	height: 64px;
+	height: 128px;
+	line-height: 185px;
+	text-align: center;
 	z-index: 90;
 }
 
 .tog2 {
 	position: absolute;
-	left: 864px;
-	top: 117px;
+	left: 860px;
+	top: 86px;
 	width: 178px;
-	height: 64px;
+	height: 128px;
+	line-height: 185px;
+	text-align: center;
 	display: none;
 	z-index: 90;
 }
