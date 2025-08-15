@@ -3,6 +3,15 @@
 	padding: 0px;
 }
 
+.study {
+	position: absolute;
+  left: 766px;
+  top: 0px;
+  width: 314px;
+  height: 195px;
+	z-index: 20;
+}
+
 .s1 {
 	position: absolute;
 	width: 1024px;
@@ -98,7 +107,7 @@
 .s9 {
 	position: absolute;
   left: 785px;
-  top: 132px;
+  top: 92px;
   width: 295px;
   height: 78px;
 	animation: slideInRight 0.3s;
@@ -225,4 +234,26 @@
 	animation-delay: 4.8s;
 	animation-fill-mode: both;
 	z-index: 5;
+}
+
+.s20 {
+  position: absolute;
+  left: 929px;
+  top: 177px;
+  width: 48px;
+  height: 38px;
+  	animation: flashOff 1s infinite;
+	animation-delay: 5s;
+	animation-fill-mode: both;
+  z-index: 5;
+}
+
+@keyframes flashOff {
+  0%, 50%, 100% {
+    opacity: 0;
+  }
+
+  25%, 75% {
+    opacity: 1;
+  }
 }
