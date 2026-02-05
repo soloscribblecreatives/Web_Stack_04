@@ -160,10 +160,20 @@
   top: 440px;
   width: 43px;
   height: 34px;
-	animation: flash 1s infinite;
+	animation: flashLongOn 1s infinite;
 	animation-delay: 3s;
 	animation-fill-mode: both;
-  z-index: 43;
+	z-index: 5;
+}
+
+@keyframes flashLongOn {
+  0%,  100% {
+    opacity: 0;
+  }
+
+  25%, 50%, 75% {
+    opacity: 1;
+  }
 }
 
 
